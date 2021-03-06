@@ -8,7 +8,6 @@ HTMLWidgets.widget({
 
   initialize: function(el, width, height) {
 
-      debugger;
     return {
 
     };
@@ -221,8 +220,9 @@ HTMLWidgets.widget({
 
       .on("click", function(d,i) {
         if(HTMLWidgets.shinyMode === true) {
-          debugger;
-          Shiny.setInputValue("streamgraphSelectedLayer", d.key)
+          //Make the value of the widget itself be the clicked
+          //layer by key.
+          Shiny.setInputValue(el.id, d.key,{priority: "event"})
         }
       });
     }

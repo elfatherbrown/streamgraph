@@ -7,9 +7,10 @@ HTMLWidgets.widget({
   type: 'output',
 
   initialize: function(el, width, height) {
-    return {
 
       debugger;
+    return {
+
     };
   },
 

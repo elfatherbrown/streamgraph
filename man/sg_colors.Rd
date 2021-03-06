@@ -4,8 +4,13 @@
 \alias{sg_colors}
 \title{Modify streamgraph colors}
 \usage{
-sg_colors(sg, palette = NULL, axis_color = "black",
-  tooltip_color = "black", label_color = "black")
+sg_colors(
+  sg,
+  palette = NULL,
+  axis_color = "black",
+  tooltip_color = "black",
+  label_color = "black"
+)
 }
 \arguments{
 \item{sg}{streamgraph object}

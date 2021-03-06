@@ -4,11 +4,25 @@
 \alias{streamgraph}
 \title{Create a new streamgraph}
 \usage{
-streamgraph(data, key, value, date, width = NULL, height = NULL,
-  offset = "silhouette", interpolate = "cardinal",
-  interactive = TRUE, scale = "date", top = 20, right = 40,
-  bottom = 30, left = 50, sort = TRUE, complete = TRUE,
-  order = c("compat", "asis", "inside-out", "reverse"))
+streamgraph(
+  data,
+  key,
+  value,
+  date,
+  width = NULL,
+  height = NULL,
+  offset = "silhouette",
+  interpolate = "cardinal",
+  interactive = TRUE,
+  scale = "date",
+  top = 20,
+  right = 40,
+  bottom = 30,
+  left = 50,
+  sort = TRUE,
+  complete = TRUE,
+  order = c("compat", "asis", "inside-out", "reverse")
+)
 }
 \arguments{
 \item{data}{data frame}

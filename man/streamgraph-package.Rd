@@ -4,9 +4,6 @@
 \name{streamgraph-package}
 \alias{streamgraph-package}
 \title{A package to make \href{http://www.leebyron.com/else/streamgraph/}{streamgraphs}}
-\description{
-A package to make \href{http://www.leebyron.com/else/streamgraph/}{streamgraphs}
-}
 \author{
 Bob Rudis (@hrbrmstr)
 }

@@ -213,6 +213,10 @@ HTMLWidgets.widget({
 
         tooltip.text("");
 
+      })
+
+      .on("click", function(d,i) {
+        alert("You did it!")
       });
     }
 

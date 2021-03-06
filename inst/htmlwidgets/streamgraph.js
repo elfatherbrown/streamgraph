@@ -7,7 +7,10 @@ HTMLWidgets.widget({
   type: 'output',
 
   initialize: function(el, width, height) {
-    return { };
+    return {
+
+      debugger;
+    };
   },
 
   renderValue: function(el, params, instance) {

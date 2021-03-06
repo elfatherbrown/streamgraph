@@ -216,7 +216,10 @@ HTMLWidgets.widget({
       })
 
       .on("click", function(d,i) {
-        debugger;
+        if(HTMLWidgets.shinyMode === true) {
+          debugger;
+          Shiny.setInputValue("streamgraphSelectedLayer", d.key)
+        }
       });
     }
 

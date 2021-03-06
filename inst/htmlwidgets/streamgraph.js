@@ -216,7 +216,7 @@ HTMLWidgets.widget({
       })
 
       .on("click", function(d,i) {
-        alert("You did it!")
+        debugger;
       });
     }
 

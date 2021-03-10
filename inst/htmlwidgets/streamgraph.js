@@ -121,7 +121,7 @@ HTMLWidgets.widget({
                  .y1(function(d) { return y(d.y0 + d.y); });
 
     // build the final svg
-    debugger;
+
     var svg = d3.
     select("#" + el.id)
     .append("svg")

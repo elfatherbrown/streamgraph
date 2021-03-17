@@ -225,7 +225,7 @@ HTMLWidgets.widget({
         if(HTMLWidgets.shinyMode === true) {
           //Make the value of the widget itself be the clicked
           //layer by key.
-          Shiny.setInputValue(el.id, d.key,{priority: "event"})
+          Shiny.setInputValue(el.id+"_clicked_layer", d.key,{priority: "event"})
         }
       });
     }
